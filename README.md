@@ -34,7 +34,7 @@ This is just Day 1 — more magic is coming. 🌦️✨
 1. Clone this repo:
 git clone https://github.com/Hetal-byte/mapmyweather.git
 
-yaml
+
 Copy
 Edit
 2. Open `index.html` in your browser
