@@ -1,0 +1,23 @@
+/* Base styles for the whole page */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e8f4f8; /* Soft blue */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading style */
+h1 {
+  margin-top: 20px;
+  color: #2a2a2a;
+}
+
+/* Map container */
+#map {
+  height: 80vh; /* 80% of the viewport height */
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); /* Soft shadow */
+}

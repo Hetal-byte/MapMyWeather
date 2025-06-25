@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MapMyWeather</title>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Leaflet CSS for open-source maps -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+
+  <!-- Welcome message -->
+  <h1>📍 Welcome to MapMyWeather</h1>
+  <p>Hang tight! We’re grabbing your location and loading the weather map...</p>
+
+  <!-- This is where the map will live -->
+  <div id="map"></div>
+
+  <!-- Leaflet library (JS for maps) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- custom JS file that makes all the magic happen -->
+  <script src="script.js"></script>
+</body>
+</html>
