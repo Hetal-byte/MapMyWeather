@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MapMyWeather</title>
-
-  <!-- Link to CSS -->
+  <title>MapMyWeather PRO</title>
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- Leaflet CSS for open-source maps -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
-
-  <!-- Welcome message -->
   <h1>📍 Welcome to MapMyWeather</h1>
-  <p>Hang tight! We’re grabbing your location and loading the weather map...</p>
 
-  <!-- This is where the map will live -->
+  <div class="search-container">
+    <input type="text" id="search-box" placeholder="Search for a city..." />
+    <button onclick="handleSearch()">🔍 Search</button>
+  </div>
+
+  <div id="location-box">🌐 Detecting your location...</div>
+  <div id="weather-box">
+    <span id="weather-icon"></span>
+    <span id="weather-info">🌦️ Checking weather...</span>
+  </div>
+
+  <div id="forecast-slider"></div>
   <div id="map"></div>
 
-  <!-- Leaflet library (JS for maps) -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- FAB Button -->
+  <button id="fab" onclick="resetToCurrentLocation()">📍</button>
 
-  <!-- custom JS file that makes all the magic happen -->
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
