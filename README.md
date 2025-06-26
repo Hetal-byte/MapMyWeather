@@ -29,6 +29,27 @@ This is just Day 1 — more magic is coming. 🌦️✨
 
 ---
 
+## ✅ Day 2 — What’s Done
+
+- Integrated OpenCage API to fetch readable location (city, state, country)
+- Connected OpenWeatherMap to show real-time weather info
+- Added a 5-day forecast slider based on noon data points
+- Enabled location-based weather search using a search bar
+- Implemented a floating button to reset the map to your current location
+- Cleaned up layout for mobile + desktop
+- Improved the overall code structure for better readability
+
+---
+
+## 🛠️ Tech Used
+
+- HTML, Tailwind CSS, JavaScript
+- Leaflet.js (map library)
+- OpenWeatherMap API (current + forecast)
+- OpenCage Geocoding API
+
+---
+
 ## 🚀 How to Run It
 
 1. Clone this repo:
@@ -48,7 +69,7 @@ Edit
 | Day | Task                        | Status  |
 |-----|-----------------------------|---------|
 | 1   | Location + Map Setup        | ✅ Done |
-| 2   | Reverse Geocode (City, etc) | 🔜 Next |
+| 2   | Reverse Geocode (City, etc) | ✅ Done |
 | 3   | Show Temp, Humidity, etc.   | 🔜 Soon |
 
 ---
